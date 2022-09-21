@@ -1,0 +1,14 @@
+#head-row{
+    background-color: rgb(7, 202, 250);
+}
+
+.pagination{
+    width: 600px;
+    margin: auto;
+    gap: 45px;
+}    
+th, td{
+    padding-top: 15px;
+    padding-left: 15px;
+    text-align: justify;
+}

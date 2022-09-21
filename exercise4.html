@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        .row{
+            background: black;
+        }
+        .nav-link{
+            color: white;
+        }
+        .nav-link:hover{
+            color: white;
+        }
+        .container-fluid{
+            background-color: rgba(234, 230, 230, 0.913);
+        }
+        h2{
+            text-align: center;
+            padding-top: 10px;
+            word-spacing: 10px;
+    
+        }
+        .img-responsive{
+            width: 300px;
+            height: 380px;
+            padding: 0;
+            border: 1px solid black;
+            border-radius: 10px;
+            
+            
+        }
+        .content{
+            width: 50%;
+            margin: auto 500px;
+            text-align: left;
+        }
+        #row-2{
+            background-color: rgba(234, 230, 230, 0.913);
+        }  
+        .col{
+            padding: 10px;
+            line-height: 2;
+            text-align: center;
+        }  
+        #content{
+            font-size: 15px;
+            font-weight: 500;
+            padding-top: 50px;
+            
+        }
+        .btn{
+            background: rgb(249, 121, 9);
+            color: white;    
+        }
+        .btn:hover{
+            background: rgb(249, 121, 9);
+            color: brown;
+        }
+        .responsive-width{
+            width: 40%;
+            
+          
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="row py-3">
+            <div class="col">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">The book series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Testimonals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">The Author</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Free resources</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <h2>You dont know JavaScript</h2>
+        <div class="row" id="row-2">
+            <div class="col">
+                <img class="img-responsive" src="image2.jpg" alt="img-js">
+            </div>
+            <div class="col" id="content">
+                <p>Don't just drift through javascript.</p>  
+                <p>Understand how JavaScript works</p>  
+                <p>Start your journey through the bumpy side of javascript</p>
+                <button class="btn btn-default btn-md btn-block responsive-width"> ORDER YOUR COPY NOW</button>
+            </div>
+        </div>    
+    </div>
+    <footer>
+        <div class="row py-3">
+            <div class="col text-white justify-content-center">
+                The first ebook in the book series is absolutely free.<br>
+                <button class="btn btn-default btn-md btn-block responsive-width"> FIND OUT MORE ABOUT THIS OFFER</button>
+
+            </div>
+            
+        </div>
+
+    </footer>
+</body>
+</html>

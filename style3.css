@@ -1,0 +1,14 @@
+.para{
+    font-size: 15px;
+    border: 2px solid black;
+    margin: 0;
+}
+span{
+    color: rgb(89, 177, 250);
+}
+.bold{
+    font-weight: bold;
+    font-size: 25px;
+    color:rgb(4, 4, 157);
+    
+}
